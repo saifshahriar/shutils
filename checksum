@@ -1,3 +1,5 @@
 #!/bin/sh
 
+# Usage:
+#     checksum <hash> <file>
 echo "$1  $2" | sha256sum -c -
